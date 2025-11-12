@@ -1,0 +1,29 @@
+/* src/components/LoadingScreen.css */
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #547dce; /* Warna latar belakang gelap (misal: gray-900) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Pastikan di atas semua konten lain */
+    opacity: 1; /* Pastikan terlihat di awal */
+    transition: opacity 0.5s ease-out; /* Transisi saat opacity berubah */
+}
+
+/* Class untuk menyembunyikan loading screen secara visual */
+.loading-screen.hidden {
+    pointer-events: none; /* Agar tidak bisa diklik setelah hilang */
+}
+
+.loading-logo {
+    width: 1000px; /* Ukuran logo, sesuaikan */
+    height: 1000px;
+    object-fit: contain; /* Agar gambar tidak terdistorsi */
+    border-radius: 50%; /* Jika logo bulat */
+    /* opacity: 0; */ /* GSAP akan mengatur opacity awal */
+}
