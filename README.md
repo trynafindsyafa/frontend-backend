@@ -1,16 +1,52 @@
-# React + Vite
+# 🐐 Atthilah Farm - Frontend (Website)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyek ini adalah bagian **Frontend** (Antarmuka Pengguna/Website) dari proyek terintegrasi Atthilah Farm.
 
-Currently, two official plugins are available:
+Website ini berfungsi sebagai wajah digital Atthilah Farm, menyediakan informasi lengkap mengenai layanan penggemukan kambing, produk pupuk organik, dan detail kontak.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Teknologi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Proyek *frontend* ini dikembangkan menggunakan teknologi modern:
 
-## Expanding the ESLint configuration
+* **Framework Utama:** **React**
+    * Memastikan antarmuka pengguna yang cepat, *stateful*, dan modular.
+* **Bundler/Tooling:** **Vite**
+    * Digunakan untuk *development* yang cepat dan optimasi *build* untuk produksi.
+* **Styling:** **CSS Biasa (Tradisional)**
+    * *Styling* disajikan menggunakan CSS murni dan responsif.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Cara Menjalankan Lokal
+
+Untuk menjalankan proyek ini di komputer lokal Anda, ikuti langkah-langkah di bawah:
+
+### Prasyarat
+
+Pastikan Anda telah menginstal:
+* [Node.js](https://nodejs.org/) (versi terbaru)
+* [npm](https://www.npmjs.com/) (termasuk bersama Node.js)
+
+### Langkah-langkah
+
+1.  **Instal Dependensi:**
+    Pastikan Anda berada di direktori `frontend-backend`, lalu jalankan:
+    ```bash
+    npm install
+    ```
+
+2.  **Jalankan Server Pengembangan (Development):**
+    ```bash
+    npm run dev
+    ```
+
+3.  **Akses Aplikasi:**
+    Aplikasi akan tersedia di *browser* Anda, biasanya di: `http://localhost:5173` (atau port lain yang ditunjukkan oleh terminal).
+
+---
+
+## 📝 Kontak
+
+Jika ada pertanyaan atau masalah terkait *frontend* ini, silakan hubungi developer utama.
